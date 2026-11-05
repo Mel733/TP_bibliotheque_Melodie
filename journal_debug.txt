@@ -1,0 +1,10 @@
+
+Erreur observé lors de fonction bilan:compteur_diponible += livre.disponible TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+Cause : le compteur n'augmentait pas car disponible n'est pas un int
+Correction: Une fonction qui verfie si le livre est disponible et si true alors j'incrémente le compteur de 1
+Teste effectué: print(bilan(livres))
+
+====================================================================================================================
+Erreur : lors de l'affichage de la liste
+Cause : un print en trop dans les teste et un print manquant dans la fonction
+Correction : suppression du print qui évite un double d'un titre et ajout du print dans la fonction pour afficher tout les livres

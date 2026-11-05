@@ -1,0 +1,22 @@
+ALGORITHME emprunter_Bibliotheque
+    VARIABLES
+ id_livre : ENTIER
+
+DEBUT
+    ECRIRE("Quelle livre voulez vous emprunter ? ")
+    Lire(id)
+    SI id_livre dans liste ALORS
+        confirmez l'emprunt ?
+        Si oui :
+            stock du livre -1 
+        sinon : renvoie dans le menu
+
+        SINON SI id_livre n'est pas dans la liste ALORS
+            message d'erreur
+
+        Sinon si id_livre est dans liste et stock = 0:
+            livre indisponible
+            
+        
+    FINSI
+FIN
