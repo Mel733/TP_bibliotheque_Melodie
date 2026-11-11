@@ -1,0 +1,30 @@
+[
+  {
+    "identifiant": 1,
+    "titre": "Le petit robot",
+    "auteur": "Alice Martin",
+    "categorie": "Science-fiction",
+    "exemplaires": 2
+  },
+  {
+    "identifiant": 2,
+    "titre": "Jardin secret",
+    "auteur": "Bilal Haddad",
+    "categorie": "Nature",
+    "exemplaires": 1
+  },
+  {
+    "identifiant": 3,
+    "titre": "Python pas à pas",
+    "auteur": "Chloé Bernard",
+    "categorie": "Informatique",
+    "exemplaires": 0
+  },
+  {
+    "identifiant": 4,
+    "titre": "Avatar",
+    "auteur": "Mélodie",
+    "categorie": "aventure",
+    "exemplaires": 0
+  }
+]
